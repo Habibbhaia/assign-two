@@ -1,0 +1,75 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Poppins:wght@500&family=Work+Sans:ital@0;1&display=swap');
+body{
+    font-family: 'Open Sans', sans-serif;
+    height: auto;
+}
+.container {
+    background-color: rgba(255, 144, 14, 0.1);
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    font-weight: 500px;
+    font-size: 18px;
+    margin-left: 60px;
+}
+nav-title{
+    font-size: 45px;
+    font-weight: 700px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 70px 240px;
+    }
+    .detail{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+.button-one{
+    background-color: 
+    #FF900E;
+}
+.detail img{
+    width: 800px;
+    height: 700px;
+}
+.main{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.grid img{
+    width: 300px;
+    height: 300px;
+}
+.button-two{
+    background-color: 
+    #FF900E;
+}
+.feather-detail{
+
+     display: flex;
+    
+}
+@media screen and (max-width:576px) {
+    .grid{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
