@@ -61,15 +61,58 @@ nav{
     background-color: 
     #FF900E;
 }
-.feather-detail{
+.feather{
 
-     display: flex;
+     display:flex;
     
 }
+.png{
+    display: flex;
+    justify-content: space-around;
+
+}
+.sponsor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.icon{
+    display: flex;
+    justify-content: space-around;
+}
+.last{
+    background-color: #FFF4E7;
+    display: flex;
+  
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+    height: 100px;
+    margin-left: 325px;
+}
+
+
 @media screen and (max-width:576px) {
+    .main{
+
+        display: flex;
+        justify-content: center;
+            align-items: center;}
+            .grid{
+                display: flex;
+                flex-direction: column;
+            }
     .grid{
         display: flex;
         flex-direction: column;
     }
+    nav ul{
+        display: flex;
+        align-items: center;
     
 }
+.sponsor{
+    display: flex;
+    flex-direction: column;
+        align-items: center;}}
